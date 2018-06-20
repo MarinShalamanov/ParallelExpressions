@@ -1,9 +1,11 @@
 package com.marinshalamanov.expr;
 
 public class StringPiece {
+	// the string piece is from[begin], from[begin+1]... from[end-1]
+	
 	private String from;
 	private int begin, end;
-	// the string piece is from[begin], from[begin+1]... from[end-1]
+	
 	
 	public StringPiece(String from, int begin, int end) {
 		this.from = from;
